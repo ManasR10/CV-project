@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Mozilla Developer Network (MDN) - HTML",
+        "citation": "Mozilla. (n.d.). HTML: HyperText Markup Language. Mozilla Developer Network. "
+    },
+    {
+        "title": "Mozilla Developer Network (MDN) - CSS",
+        "citation": "Mozilla. (n.d.). CSS: Cascading Style Sheets. Mozilla Developer Network."
+    },
+    {
+        "title": "Mozilla Developer Network (MDN) - JavaScript",
+        "citation": "Mozilla. (n.d.). JavaScript. Mozilla Developer Network."
+    },
+    {
+        "title": "Kevin Powell - Mastering CSS Grid",
+        "citation": "Kevin Powell. (2022, October 5). Mastering CSS Grid – Full Course [Video]. YouTube."
+    },
+    {
+        "title": "Academind - Flexbox vs Grid",
+        "citation": "Academind. (2023, January 21). Flexbox vs Grid: Which One Should You Use? [Video]."
+    },
+    {
+        "title": "Bootstrap Documentation",
+        "citation": "Bootstrap. (n.d.). Introduction to Bootstrap."
+    },
+    {
+        "title": "AI Assistance",
+        "citation": "AI Assistance: Some formatting and improvement suggestions were assisted by AI. OpenAI ChatGPT. (2025)."
+    }
+]

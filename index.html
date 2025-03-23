@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="top-nav">
+        <img src="img/uwa-university-perth.svg" alt="uwalogo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <div class="header-content">
+            <h1><span>Best</span> <br><span>Practices</span></h1>
+            <div class="btn-container">
+                <button class="btn" id="btnn">Get Started <img src="img/icon.png" alt="start-icon"
+                        class="btn-img"></button>
+            </div>
+        </div>
+
+        <!-- Best Practices Section (Hidden Initially) -->
+        <div id="best-practices-section" class="hidden">
+            <h2>Select the best practices you follow: </h2>
+            <div class="category" id="cat">
+                <div>
+                    <h3>HTML Best Practices</h3>
+                    <ul>
+                        <li><input type="checkbox" id="html1"> Use semantic HTML elements — Improves accessibility and
+                            SEO.</li>
+                        <li><input type="checkbox" id="html2"> Include alt text for images — Helps visually impaired
+                            users and improves SEO.</li>
+                        <li><input type="checkbox" id="html3"> Use meta tags for SEO — Helps search engines understand
+                            page content.</li>
+                        <li><input type="checkbox" id="html4"> Validate HTML with W3C Validator — Ensures code quality
+                            and reduces errors.</li>
+                        <li><input type="checkbox" id="html5"> Keep code well-indented — Enhances readability and
+                            maintainability.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>CSS Best Practices</h3>
+                    <ul>
+                        <li><input type="checkbox" id="css1"> Use external stylesheets — Promotes reusability and easier
+                            maintenance.</li>
+                        <li><input type="checkbox" id="css2"> Follow a consistent naming convention — Improves clarity
+                            and collaboration.</li>
+                        <li><input type="checkbox" id="css3"> Avoid !important unless necessary — Keeps specificity
+                            manageable and predictable.</li>
+                        <li><input type="checkbox" id="css4"> Use Flexbox/Grid for layouts — Simplifies responsive
+                            design and alignment.</li>
+                        <li><input type="checkbox" id="css5"> Optimize CSS for performance — Reduces load times and
+                            enhances user experience.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>JavaScript Best Practices</h3>
+                    <ul>
+                        <li><input type="checkbox" id="js1"> Use meaningful variable names — Enhances code readability
+                            and maintainability.</li>
+                        <li><input type="checkbox" id="js2"> Avoid global variables — Prevents conflicts and unexpected
+                            behavior in code.</li>
+                        <li><input type="checkbox" id="js3"> Use strict mode (`"use strict";`) — Helps catch common
+                            coding mistakes and unsafe actions.</li>
+                        <li><input type="checkbox" id="js4"> Keep functions short and focused — Improves code clarity
+                            and reusability.</li>
+                        <li><input type="checkbox" id="js5"> Handle errors with try/catch — Ensures graceful error
+                            management and user experience.</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Success Criteria. Minimum 12 Selections</p>
+            <p id="summary-text">You have selected 0 best practices.</p>
+            <div class="progress-container">
+                <progress id="progress-bar" value="0" max="15"></progress>
+            </div>
+            <div class="done-container">
+                <button class="done" id="done-btn">Done</button>
+            </div>
+            <div class="reset-container">
+                <button class="btn" id="reset-btn">Reset Selections</button>
+            </div>
+            <div id="reward-container"></div>
+
+        </div>
+    </div>
+
+    <script src=" script.js">
+    </script>
+</body>
+
+</html>
